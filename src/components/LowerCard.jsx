@@ -12,16 +12,16 @@ export function LowerCard() {
             Save the Rainforests: Funds Raised: $3500 
         </div>
         <div className="subtext font-semibold justify-start m-4">
-            Clean Water for All: Funds Raised: $1500 
+            Education for All: Funds Raised: $4500
         </div>
         <div className="subtext font-semibold justify-start m-4">
-            Clean Water for All: Funds Raised: $1500 
+            Support for Disaster Relief: Funds Raised: $3000
         </div>
         <div className="subtext font-semibold justify-start m-4">
-            Clean Water for All: Funds Raised: $1500 
+            Health and Wellness Programs: Funds Raised: $2200
         </div>
         <div className="subtext font-semibold justify-start m-4">
-            Clean Water for All: Funds Raised: $1500 
+           Community Outreach Projects: Funds Raised: $1800
         </div>
         
     </div>

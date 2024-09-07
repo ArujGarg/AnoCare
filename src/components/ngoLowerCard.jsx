@@ -6,10 +6,10 @@ export function NgoLowerCard({title, body, pastTransaction}) {
         <div className="titletext">
             {title}
         </div>
-        <div className="subtext">
+        <div className="subtext font-semibold mt-4 ml-5 mr-5 mb-4">
             {body}
         </div>
-        <div>
+        <div className="subtext text-base font-semibold mt-6">
             {pastTransaction}
         </div>
     </div>

@@ -11,8 +11,8 @@ export function Home() {
         </div>
         <div>
           <div className="flex ml-20 mr-2">
-            <Card value={"$4.1k"} topLeftHeadingValue={"Funds Raised"}/>
-            <Card value={"3.5k"} topLeftHeadingValue={"People Helped"} />
+            <Card value={"$16.5k"} topLeftHeadingValue={"Funds Raised"}/>
+            <Card value={"13.1k"} topLeftHeadingValue={"People Helped"} />
           </div>
           <div className="mt-4">
               <LowerCard />

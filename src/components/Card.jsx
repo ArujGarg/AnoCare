@@ -1,6 +1,6 @@
 
 export function Card({value, topLeftHeadingValue }) {
-    return <div className="flex flex-col w-[400px] shadow-lg border border-neutral-300 rounded-xl ml-4 bg-indigo-200 p-4 h-[250px]">
+    return <div className="flex flex-col w-[400px] shadow-lg border border-neutral-300 rounded-xl ml-4 bg-indigo-200 p-4 h-[250px] hover:scale-105">
         <div className="font-bold titletext text-xl">
             {topLeftHeadingValue}
         </div>

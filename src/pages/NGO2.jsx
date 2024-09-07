@@ -17,7 +17,7 @@ export function NGO2({title, body}) {
             <Card value={"3.5k"} topLeftHeadingValue={"People Helped"} />
           </div>
           <div className="mt-4 ml-20 h-[100px]">
-              <NgoLowerCard title={"Doctors Without Borders "} body={"Doctors Without Borders (Médecins Sans Frontières) provides emergency medical care in conflict zones and disaster areas. They offer life-saving treatment to those in need, regardless of race, religion, or political affiliation."} pastTransaction={""}/>
+              <NgoLowerCard title={"Doctors Without Borders "} body={"Doctors Without Borders (Médecins Sans Frontières) provides emergency medical care in conflict zones and disaster areas. They offer life-saving treatment to those in need, regardless of race, religion, or political affiliation."} pastTransaction={"G7b9K3yQ5FzX2Lw1J6nA8mD0Pq4R9TtV2hC8xZ1sM4gN5vW3kY6dL7jF1pQ0r donated! t5N4wL8xQ7pZ9K2mR1jB3gY6C0nV5qD2H7kM9aP3F8dT1sL6vW4zG0J3pY9X1r donated! L6rT4nV9K1jX7Y2dC5B8pF3W0N2mZ5qH9P6yR3L1gD7tW8kM0pJ2vQ4xC9sF5N donated! X1bG3zK4nY6qT7jV9P8mD5L2rN0F1wC3pR4xL8dM9W5kJ2tQ7vY6gP1nH0sF3Z donated! t9D7nX5kL1pV8gJ2mR4C0Y3B6wN1qZ9F2H5rP7T0dW8yL4M3jQ6xC2vP9K1sF7 donated!"}/>
           </div>
         </div>
         <div>
