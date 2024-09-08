@@ -17,7 +17,7 @@ import { NGO5 } from "./pages/NGO5"
 function App() {
   
   return (
-    <div>
+    <div className="bg-lime-50">
         <BrowserRouter>
         <Appbar />
         <Routes>

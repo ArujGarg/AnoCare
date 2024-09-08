@@ -1,24 +1,19 @@
 import { Link } from "react-router-dom";
 export function Appbar() {
-    return <div className="shadow h-20 flex justify-between m-2 ml-4 rounded-lg bg-indigo-300 ">
-        <div className="flex titletext flex-col justify-center h-full ml-10 font-bold  text-3xl cursor-pointer ">
-            <Link to="/" >AnoCare
-            </Link>
-            
+    return (
+        <div className="shadow h-20 flex justify-between m-2 ml-4 rounded-lg bg-yellow-950"> {/* Greyish black */}
+            <div className="flex titletext flex-col justify-center h-full ml-10 font-bold text-3xl cursor-pointer text-white"> {/* White text */}
+                <Link to="/">AnoCare</Link>
+            </div>
+            <div className="flex">
+                <Link to={"/verify"}>
+                    <div 
+                        style={{ borderRadius: "4px" }} 
+                        className="flex flex-col subtext justify-center font-bold text-2xl h-full mr-6 text-white hover:bg-yellow-900 cursor-pointer"> {/* White text and greyish black hover */}
+                        Get Verified
+                    </div>
+                </Link>
+            </div>
         </div>
-        <div className="flex">
-            <Link to={"/verify"}>
-                <div style={{borderRadius:"4px"}} className="flex flex-col subtext justify-center font-bold text-2xl h-full mr-6   hover:bg-indigo-400 cursor-pointer">
-                    Get Verified 
-                </div>
-            </Link>
-            
-            {/* <div className="rounded-full h-12 w-12 bg-slate-200 flex justify-center mt-4 mr-2">
-                <div className="flex flex-col justify-center h-full text-2xl">
-                    
-                </div>
-            </div> */}
-
-        </div>
-    </div>
+    );
 }
