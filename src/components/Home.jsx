@@ -1,3 +1,4 @@
+import TransactionList from "../TransactionList";
 import { Card } from "./Card";
 import { LowerCard } from "./LowerCard";
 import { RightSideBar } from "./RightSideBar";
@@ -16,6 +17,7 @@ export function Home() {
           </div>
           <div className="mt-4">
               <LowerCard />
+              
           </div>
         </div>
         <div>
