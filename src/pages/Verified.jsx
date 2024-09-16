@@ -52,7 +52,7 @@ function VerifyForm() {
 
       <div className="form-container rounded-lg">
         <h2 className="form-title">
-          <span>Get Verified</span>
+          <span>ADD NGO</span>
         </h2>
 
         <form className="form-content" onSubmit={handleSubmit}>
@@ -126,7 +126,7 @@ function VerifyForm() {
 
           <br />
           <button type="submit" className="text-appointment-btn">
-            Confirm Appointment
+            Confirm
           </button>
 
           <p className="success-message" style={{display: isSubmitted ? "block" : "none"}}>Appointment details has been sent to the patients phone number via SMS.</p>
