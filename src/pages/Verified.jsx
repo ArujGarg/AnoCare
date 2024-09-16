@@ -125,7 +125,7 @@ function VerifyForm() {
           <br />
 
           <br />
-          <button type="submit" className="text-appointment-btn">
+          <button type="submit" className="text-appointment-btn hover:bg-slate-700">
             Confirm
           </button>
 
