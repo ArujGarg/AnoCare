@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background: linear-gradient(to right, #74512D, #F8F4E1);
+    background: linear-gradient(to right, #64748B, #F8F4E1);
 }
 .formfont{
     font-size:1.3rem ;

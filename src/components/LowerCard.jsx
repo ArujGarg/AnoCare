@@ -1,6 +1,6 @@
 export function LowerCard() {
     return (
-        <div className="h-[90%] w-[90%] shadow-lg border rounded-2xl ml-[90px] mr-3 mt-[10px] bg-yellow-700">
+        <div className="h-[90%] w-[90%] shadow-lg border rounded-2xl ml-[90px] mr-3 mt-[10px] bg-slate-500">
             <div className="subtext titletext font-semibold justify-start m-4 text-4xl mb-10 text-white"> {/* White text */}
                 Closed Campaigns
             </div>

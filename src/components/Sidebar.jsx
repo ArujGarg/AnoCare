@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function Sidebar() {
     return (
-        <div className="h-[97%] justify-start w-[120%] shadow-lg border rounded-2xl ml-4 bg-yellow-900">
+        <div className="h-[97%] justify-start w-[120%] shadow-lg border rounded-2xl ml-4 bg-slate-500">
             <div > {/* White text */}
                 <div>
                 <Profile label={"A"} />

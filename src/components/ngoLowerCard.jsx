@@ -1,6 +1,6 @@
 export function NgoLowerCard({ title, body, pastTransaction }) {
     return (
-        <div className="h-[380%] w-[97%] shadow-lg border rounded-2xl ml-[16px] mr-[30px] mt-[10px] bg-yellow-700">
+        <div className="h-[380%] w-[97%] shadow-lg border rounded-2xl ml-[16px] mr-[30px] mt-[10px] bg-slate-500">
             <div className="titletext text-white"> {/* White text */}
                 {title}
             </div>
