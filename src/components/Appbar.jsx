@@ -10,7 +10,7 @@ export function Appbar() {
                     <div 
                         style={{ borderRadius: "4px" }} 
                         className="flex flex-col subtext justify-center font-bold text-2xl h-full mr-6 text-white hover:bg-slate-700 cursor-pointer"> {/* White text and greyish black hover */}
-                        Get Verified
+                        Add NGO
                     </div>
                 </Link>
             </div>
